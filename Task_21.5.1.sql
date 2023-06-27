@@ -1,1 +1,1 @@
-select  distinct category from  products;
+select  distinct category from  products where category is not null;
